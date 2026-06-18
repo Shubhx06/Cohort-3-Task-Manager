@@ -76,7 +76,7 @@ let randerInputs = function(){
 
 
 searchBar.addEventListener("input", (e) => {
-    searchText = e.target.value.toLowerCase()
+   searchText = e.target.value.toLowerCase().trim()
     randerInputs()
 })
 
